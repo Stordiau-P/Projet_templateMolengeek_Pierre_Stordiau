@@ -7,27 +7,28 @@
     <link rel="stylesheet" href="/public/css/app.css">
 </head>
 <body>
-    <header>
-        <h2 class="text-primary">
-            Molengeek
-        </h2>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Featured</li>
-                <li>Testimonials</li>
-                <li>Services</li>
-                <li>Team</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>
-            Welcome to <span>Molengeek</span>
+                <header class="d-flex flex-wrap justify-content-around py-3 mb-4">
+                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-3 fw-bold">Molengeek<span class="text-primary">.</span></span>
+                  </a>
+            
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Testimonials</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Team</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Contact</a></li>
+
+                  </ul>
+                </header>
+    <section class="under_header d-flex flex-column">
+        <h1 class="fw-bold">
+            Welcome to <span class="text-primary">Molengeek</span>
         </h1>
-        <p>Mon projet du vendredi</p>
-        <button>GET STARTED</button>
+        <p class="text-secondary fs-4">Mon projet du vendredi</p>
+        <p><span class="badge bg-primary">GET STARTED</span></p>
     </section>
     <section>
         <span class="badge">FEATURED SERVICES</span>
