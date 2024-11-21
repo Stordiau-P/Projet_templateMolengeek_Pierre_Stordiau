@@ -39,6 +39,21 @@
   width: 30%;
 }
 
+.section3 .heightbox {
+  height: 7em;
+}
+
+#compt {
+  position: relative;
+  top: -0.8em;
+  padding: 0.5em 0.5em !important;
+}
+
+#containerspeed {
+  position: relative;
+  top: -0.5em;
+}
+
 /*!
  * Font Awesome Free 6.7.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
